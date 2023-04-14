@@ -243,13 +243,6 @@ from json.decoder import JSONDecodeError  # type: ignore
 
 import os
 from urllib.parse import urljoin  # type: ignore
-try:
-    import requests
-except ImportError:
-    pass
-
-NO_CONTENT = 204
-
 
 NO_CONTENT = 204
 
